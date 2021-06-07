@@ -1,13 +1,23 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import Home from './Views/Home';
 
 function App() {
-  const [selection, setSelection] = useState('');
-  const [modal, setModal] = useState('false');
+
 
   console.log('%c Woah! Made by Zubair Akbar 🤓 ', 'background: #222; color: #bada55');
 
   return (
-    <div>Here we go</div>
+
+    <Router>
+      <div>
+      <div>Test message from App</div>
+        <Switch>
+          <Route path='/' component={Home} />
+        </Switch>
+      </div>
+    </Router>
   )
 }
 
