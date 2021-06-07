@@ -4,3 +4,8 @@
     url('./assets/FontsFree-Net-Proxima-Nova-Cond-Reg.otf')
     format('opentype');
 }
+
+
+body > #app > div {
+  height: 100vh;
+}
