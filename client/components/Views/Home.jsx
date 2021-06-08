@@ -4,12 +4,7 @@ import styled from 'styled-components';
 function Home() {
   return (
     <HomeWrapper>
-      <h1
-      style={{fontFamily: "arial"}}
-      >
-        Zubair
-        <br/>Akbar
-      </h1>
+
       <p
       style={{fontSize: "20px"}}
       >Currently in Development...</p>
@@ -33,3 +28,10 @@ const HomeWrapper = styled.div`
   height: 95%;
   font-size: 15px
 `;
+
+/* <h1
+      style={{fontFamily: "arial"}}
+      >
+        Zubair
+        <br/>Akbar
+      </h1> */
