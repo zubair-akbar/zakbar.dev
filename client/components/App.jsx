@@ -23,7 +23,7 @@ function App() {
 export default App;
 
 const AppWrapper = styled.div`
-  background: url('./assets/zakbar4.jpg') no-repeat center center fixed;
+  background: url('./assets/zakbar1.jpg') no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;

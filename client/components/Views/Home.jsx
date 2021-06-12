@@ -41,7 +41,6 @@ const HomeWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   color: #E6E6E6;
-  width: 100%;
   padding: 10px;
   text-align: center;
   font-family: 'Proxima';
